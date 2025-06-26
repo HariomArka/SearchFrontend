@@ -32,11 +32,11 @@ function App() {
   };
 
   const topicColors = [
-    { name: 'Arrays', color: 'from-gray-800 to-black', bg: 'hover:bg-red-50', border: 'hover:border-red-500', text: 'hover:text-red-600' },
+    { name: 'Array', color: 'from-gray-800 to-black', bg: 'hover:bg-red-50', border: 'hover:border-red-500', text: 'hover:text-red-600' },
     { name: 'Linked Lists', color: 'from-red-800 to-red-900', bg: 'hover:bg-gray-900', border: 'hover:border-gray-700', text: 'hover:text-gray-200' },
-    { name: 'Trees', color: 'from-black to-gray-900', bg: 'hover:bg-red-50', border: 'hover:border-red-500', text: 'hover:text-red-600' },
-    { name: 'Graphs', color: 'from-red-700 to-black', bg: 'hover:bg-gray-900', border: 'hover:border-gray-700', text: 'hover:text-gray-200' },
-    { name: 'Dynamic Programming', color: 'from-gray-900 to-red-900', bg: 'hover:bg-red-50', border: 'hover:border-red-500', text: 'hover:text-red-600' },
+    { name: 'Tree', color: 'from-black to-gray-900', bg: 'hover:bg-red-50', border: 'hover:border-red-500', text: 'hover:text-red-600' },
+    { name: 'Graph', color: 'from-red-700 to-black', bg: 'hover:bg-gray-900', border: 'hover:border-gray-700', text: 'hover:text-gray-200' },
+    { name: 'DP', color: 'from-gray-900 to-red-900', bg: 'hover:bg-red-50', border: 'hover:border-red-500', text: 'hover:text-red-600' },
     { name: 'Sorting', color: 'from-black to-red-800', bg: 'hover:bg-gray-900', border: 'hover:border-gray-700', text: 'hover:text-gray-200' },
     { name: 'Binary Search', color: 'from-red-900 to-black', bg: 'hover:bg-red-50', border: 'hover:border-red-500', text: 'hover:text-red-600' },
     { name: 'Recursion', color: 'from-gray-800 to-red-900', bg: 'hover:bg-gray-900', border: 'hover:border-gray-700', text: 'hover:text-gray-200' }
