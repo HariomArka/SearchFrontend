@@ -13,9 +13,9 @@ function App() {
 
     setIsLoading(true);
     try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL}/search?query=${encodeURIComponent(query)}`);
+      const res = await fetch(`http://localhost:8000/search?query=${encodeURIComponent(query)}`);
       const data = await res.json();
-      console.log(data); // ← Check this in your browser console
+      console.log(data);
       setProblems(data.results);
       setSearchCount(prev => prev + 1);
     } catch (error) {
